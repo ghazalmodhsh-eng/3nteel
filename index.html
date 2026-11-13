@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3NT | Elite Coaching</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= TERMS MODAL (شاشة الشروط) ================= -->
+    <div id="terms-modal" class="terms-overlay">
+        <div class="terms-box">
+            <h2>TERMS & CONDITIONS</h2>
+            <p>By making a payment and enrolling in 3NT Coaching programs, I acknowledge and agree that I have read, understood, and accept all terms and conditions of the coaching service.</p>
+            <p>I understand that all coaching packages are for a 3-month duration and that results may vary based on individual effort, consistency, and adherence to the provided nutrition and training plans.</p>
+            <p>I acknowledge that once I have begun my training journey, received my personalized plans, and engaged in the coaching process, <strong>no refunds will be provided</strong> under any circumstances.</p>
+            <p>The only exception for a refund is in the case of a documented coaching service failure, where 3NT Coaching has demonstrably failed to deliver the agreed-upon coaching services.</p>
+            <p style="font-size: 0.85rem; color: #777;">(Also there is no refund on deposits on Instagram or WhatsApp)</p>
+            
+            <label class="terms-checkbox">
+                <input type="checkbox" id="agree-checkbox">
+                <span>I have read and agree to the terms and conditions above.</span>
+            </label>
+            
+            <button id="agree-btn" class="btn-primary" disabled>I AGREE & CONTINUE</button>
+        </div>
+    </div>
+
+    <!-- ================= CINEMATIC INTRO ================= -->
+    <div id="intro-container" style="display: none;">
+        <div class="bar bar-top"></div>
+        <div class="bar bar-bottom"></div>
+        <h1 class="intro-text">3NT</h1>
+    </div>
+
+    <!-- ================= HEADER ================= -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">3NT</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#packages" class="btn-primary">JOIN NOW</a>
+        </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+        <video autoplay loop muted playsinline id="bg-video" class="hero-video">
+            <source src="my-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="top-text">ELITE COACHING — EST. 2017</p>
+            <h1>NO PU**IES<br>ALLOWED.</h1>
+            <p class="sub-text">Elite coaching, premium gear, and the mindset to dominate. For champions who refuse to settle.</p>
+            <div class="stats-row">
+                <div class="stat"><h3>5,000+</h3><span>Clients coached</span></div>
+                <div class="stat"><h3>8+</h3><span>Years experience</span></div>
+                <div class="stat"><h3>24/7</h3><span>Coach support</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee">
+        <div class="marquee-content">
+            <span>NO EXCUSES</span> • <span>DISCIPLINE</span> • <span>DOMINATE</span> • <span>CONSISTENCY</span> • <span>TRAIN HARD</span> • <span>NO SHORTCUTS</span> • <span>CHAMPION MINDSET</span> • <span>EARN IT</span> • 
+            <span>NO EXCUSES</span> • <span>DISCIPLINE</span> • <span>DOMINATE</span> • <span>CONSISTENCY</span> • <span>TRAIN HARD</span> • <span>NO SHORTCUTS</span> • <span>CHAMPION MINDSET</span> • <span>EARN IT</span> • 
+        </div>
+    </div>
+
+    <!-- ================= FEATURES ================= -->
+    <section class="features" id="about">
+        <div class="container">
+            <h2 class="section-title">EVERYTHING YOU NEED TO DOMINATE</h2>
+            <p class="section-subtitle">Elite training, champion mindset, and the tools to crush your limits.</p>
+            <div class="features-grid">
+                <div class="feature-card"><i class="fa-solid fa-utensils"></i><h3>Custom Nutrition Plans</h3><p>Personalized meal plans tailored to your body and goals.</p></div>
+                <div class="feature-card"><i class="fa-solid fa-dumbbell"></i><h3>Adaptive Training Programs</h3><p>Plans that evolve with your progress and break plateaus.</p></div>
+                <div class="feature-card"><i class="fa-solid fa-headset"></i><h3>24/7 Coach Access</h3><p>Direct line to your coach for support and guidance.</p></div>
+                <div class="feature-card"><i class="fa-solid fa-capsules"></i><h3>Supplement Guidance</h3><p>Evidence-based supplement plans from trusted brands.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SOCIAL PROOF ================= -->
+    <section class="social-proof">
+        <div class="container">
+            <h2 class="section-title">REAL PEOPLE. REAL RESULTS.</h2>
+            <p class="section-subtitle">Join thousands of young athletes who transformed their bodies and mindsets.</p>
+            <div class="proof-grid">
+                <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=400&auto=format&fit=crop" alt="Result 1">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=400&auto=format&fit=crop" alt="Result 2">
+                <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=400&auto=format&fit=crop" alt="Result 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ELITE COACHING ================= -->
+    <section class="elite-coaching">
+        <div class="container">
+            <h2 class="section-title">ELITE COACHING</h2>
+            <p class="section-subtitle">8 years of experience building athletes through discipline and accountability.</p>
+            <div class="coaching-text">
+                <p>Every plan is written personally — no teams, no templates. Our mission is to eradicate weakness and build a generation that dominates in the gym and beyond.</p>
+                <blockquote>“We don't train quitters. We build champions who dominate every challenge.”</blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PRICING ================= -->
+    <section class="pricing" id="packages">
+        <div class="container">
+            <h2 class="section-title">CHOOSE YOUR BATTLEPLAN</h2>
+            <p class="section-subtitle">Elite coaching packages for champions ready to dominate.</p>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <p class="plan-tag">Low Budget</p>
+                    <h3>Farmer</h3>
+                    <p class="price">999 <span>EGP/3 months</span></p>
+                    <p class="desc">A detailed 3-month plan to become a beast.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Detailed 3-month plan</li>
+                        <li><i class="fa-solid fa-check"></i> Meal-prep walkthrough</li>
+                    </ul>
+                    <button class="btn-outline open-payment" data-plan="Farmer" data-price="999">GET STARTED</button>
+                </div>
+
+                <div class="price-card featured">
+                    <div class="badge">MOST POPULAR</div>
+                    <p class="plan-tag">Weekly Follow-up</p>
+                    <h3>3nteel</h3>
+                    <p class="price">3,999 <span>EGP/3 months</span></p>
+                    <p class="desc">Weekly follow-up directly with the coach.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Weekly check-in</li>
+                        <li><i class="fa-solid fa-check"></i> Adaptive training plan</li>
+                        <li><i class="fa-solid fa-check"></i> Flexible diet</li>
+                    </ul>
+                    <button class="btn-primary open-payment" data-plan="3nteel" data-price="3999">GET STARTED</button>
+                </div>
+
+                <div class="price-card">
+                    <p class="plan-tag">Daily Follow-up</p>
+                    <h3>VIP</h3>
+                    <p class="price">9,999 <span>EGP/3 months</span></p>
+                    <p class="desc">The full arsenal. Daily accountability.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Daily follow-up</li>
+                        <li><i class="fa-solid fa-check"></i> Video/phone calls</li>
+                    </ul>
+                    <button class="btn-outline open-payment" data-plan="VIP" data-price="9999">GET STARTED</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">IN THEIR OWN WORDS.</h2>
+            <p class="section-subtitle">Real messages from real clients.</p>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"Best decision I ever made. The plan changed my life."</p>
+                    <h4>- Ahmed M.</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The weekly follow-up keeps me accountable. Down 15kg!"</p>
+                    <h4>- Karim S.</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Coach actually cares. Worth every penny."</p>
+                    <h4>- Omar T.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">HOW IT WORKS</h2>
+            <div class="steps-grid">
+                <div class="step"><span class="num">01</span><h3>Pick your package</h3><p>Choose the plan that fits your goals.</p></div>
+                <div class="step"><span class="num">02</span><h3>Pay</h3><p>Pay via Instapay, Vodafone Cash, or Telda.</p></div>
+                <div class="step"><span class="num">03</span><h3>Send Confirmation</h3><p>Send your payment screenshot on WhatsApp.</p></div>
+                <div class="step"><span class="num">04</span><h3>Get Your Plan</h3><p>Start within 24–48 hours.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PAYMENTS ================= -->
+    <section class="payments">
+        <div class="container">
+            <h2 class="section-title">EASY PAYMENT OPTIONS</h2>
+            <div class="payment-grid">
+                <div class="payment-card"><i class="fa-solid fa-building-columns"></i><h4>Instapay</h4><p>Send payment & screenshot</p></div>
+                <div class="payment-card"><i class="fa-solid fa-mobile-screen"></i><h4>Vodafone Cash</h4><p>Transfer & save reference</p></div>
+                <div class="payment-card"><i class="fa-solid fa-credit-card"></i><h4>Telda</h4><p>Search username & send</p></div>
+                <div class="payment-card"><i class="fa-solid fa-globe"></i><h4>Tap Tap Send</h4><p>For outside Egypt</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">FREQUENTLY ASKED QUESTIONS</h2>
+            <div class="faq-item">
+                <button class="faq-question">How fast will I receive my plan? <i class="fa-solid fa-chevron-down"></i></button>
+                <div class="faq-answer"><p>Within 24–48 hours after payment confirmation.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Do I need a gym membership? <i class="fa-solid fa-chevron-down"></i></button>
+                <div class="faq-answer"><p>Not necessarily — we create plans based on your available equipment.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Can I pay from outside Egypt? <i class="fa-solid fa-chevron-down"></i></button>
+                <div class="faq-answer"><p>Yes, via Tap Tap Send or WhatsApp for bank details.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FINAL CTA ================= -->
+    <section class="final-cta" id="contact">
+        <div class="container">
+            <h2>STOP MAKING EXCUSES.<br>START DOMINATING.</h2>
+            <p>Join 5000+ champions who refused to settle.</p>
+            <a href="https://wa.me/201000000000" class="btn-whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i> CONTACT ON WHATSAPP</a>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="container"><p>&copy; 2026 3NT COACHING. ALL RIGHTS RESERVED.</p></div>
+    </footer>
+
+    <!-- ================= PAYMENT MODAL ================= -->
+    <div id="payment-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" id="close-modal"><i class="fa-solid fa-xmark"></i></button>
+            <p class="modal-top-text">YOU'RE STARTING</p>
+            <h3 class="modal-plan-title" id="modal-plan-title">3nteel <span>3,999 EGP</span></h3>
+            <p class="modal-desc">Choose your payment method to continue.</p>
+            
+            <div class="payment-options-list">
+                <a href="#" class="payment-btn">INSTAPAY <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <div class="payment-btn">VODAFONE CASH <span>01000000000</span></div>
+                <div class="payment-btn">TELDA <span>01000000000</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
